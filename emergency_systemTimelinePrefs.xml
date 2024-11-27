@@ -1,0 +1,94 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.5.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "emergency_system AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/emergency_system" Type = "IntervalList">
+                <Interval Name = "emergency_system AvailabilityIntervals" StartTime = "27 Nov 2024 11:00:00.000" StopTime = "30 Nov 2024 11:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/emergency_system/Satellite/Satellite1;/Application/STK/Scenario/emergency_system/Facility/Kourou_Station/Antenna/Antenna1" Type = "IntervalList">
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "27 Nov 2024 11:44:58.381" StopTime = "27 Nov 2024 11:53:40.835" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "27 Nov 2024 22:10:36.077" StopTime = "27 Nov 2024 22:19:56.309" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "27 Nov 2024 23:51:28.035" StopTime = "28 Nov 2024 00:01:32.264" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "28 Nov 2024 08:34:07.855" StopTime = "28 Nov 2024 08:38:55.906" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "28 Nov 2024 10:12:33.936" StopTime = "28 Nov 2024 10:23:29.972" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "28 Nov 2024 11:57:10.756" StopTime = "28 Nov 2024 12:01:23.537" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "28 Nov 2024 22:19:49.662" StopTime = "28 Nov 2024 22:30:31.021" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "29 Nov 2024 00:02:33.489" StopTime = "29 Nov 2024 00:10:29.002" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "29 Nov 2024 08:42:15.639" StopTime = "29 Nov 2024 08:50:59.907" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "29 Nov 2024 10:22:43.105" StopTime = "29 Nov 2024 10:33:08.712" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "29 Nov 2024 20:50:46.970" StopTime = "29 Nov 2024 20:56:54.361" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "29 Nov 2024 22:29:38.007" StopTime = "29 Nov 2024 22:40:31.091" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "30 Nov 2024 00:15:43.214" StopTime = "30 Nov 2024 00:17:35.848" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "30 Nov 2024 08:51:24.433" StopTime = "30 Nov 2024 09:01:50.067" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1 AccessIntervals" StartTime = "30 Nov 2024 10:33:31.219" StopTime = "30 Nov 2024 10:42:09.751" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-Satellite1-Sensor-Sensor1-To-Facility-Kourou_Station AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/emergency_system/Satellite/Satellite1/Sensor/Sensor1;/Application/STK/Scenario/emergency_system/Facility/Kourou_Station" Type = "IntervalList">
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-To-Facility-Kourou_Station AccessIntervals" StartTime = "27 Nov 2024 22:13:52.825" StopTime = "27 Nov 2024 22:16:39.337" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-To-Facility-Kourou_Station AccessIntervals" StartTime = "27 Nov 2024 23:54:09.421" StopTime = "27 Nov 2024 23:58:49.774" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-To-Facility-Kourou_Station AccessIntervals" StartTime = "28 Nov 2024 10:14:50.580" StopTime = "28 Nov 2024 10:21:14.068" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-To-Facility-Kourou_Station AccessIntervals" StartTime = "28 Nov 2024 22:22:11.290" StopTime = "28 Nov 2024 22:28:08.862" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-To-Facility-Kourou_Station AccessIntervals" StartTime = "29 Nov 2024 10:25:12.250" StopTime = "29 Nov 2024 10:30:40.009" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-To-Facility-Kourou_Station AccessIntervals" StartTime = "29 Nov 2024 22:31:55.154" StopTime = "29 Nov 2024 22:38:13.119" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-To-Facility-Kourou_Station AccessIntervals" StartTime = "30 Nov 2024 08:53:54.934" StopTime = "30 Nov 2024 08:59:20.591" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/emergency_system/Facility/Kourou_Station;/Application/STK/Scenario/emergency_system/Satellite/Satellite1" Type = "IntervalList">
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "27 Nov 2024 11:44:58.375" StopTime = "27 Nov 2024 11:53:40.827" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "27 Nov 2024 22:10:36.069" StopTime = "27 Nov 2024 22:19:56.300" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "27 Nov 2024 23:51:28.026" StopTime = "28 Nov 2024 00:01:32.256" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "28 Nov 2024 08:34:07.851" StopTime = "28 Nov 2024 08:38:55.896" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "28 Nov 2024 10:12:33.931" StopTime = "28 Nov 2024 10:23:29.964" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "28 Nov 2024 11:57:10.746" StopTime = "28 Nov 2024 12:01:23.531" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "28 Nov 2024 22:19:49.657" StopTime = "28 Nov 2024 22:30:31.012" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "29 Nov 2024 00:02:33.482" StopTime = "29 Nov 2024 00:10:28.995" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "29 Nov 2024 08:42:15.628" StopTime = "29 Nov 2024 08:50:59.898" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "29 Nov 2024 10:22:43.091" StopTime = "29 Nov 2024 10:33:08.704" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "29 Nov 2024 20:50:46.963" StopTime = "29 Nov 2024 20:56:54.351" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "29 Nov 2024 22:29:37.999" StopTime = "29 Nov 2024 22:40:31.083" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "30 Nov 2024 00:15:43.201" StopTime = "30 Nov 2024 00:17:35.843" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "30 Nov 2024 08:51:24.425" StopTime = "30 Nov 2024 09:01:50.058" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "30 Nov 2024 10:33:31.210" StopTime = "30 Nov 2024 10:42:09.743" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/emergency_system/Facility/Kourou_Station/Transmitter/Transmitter1;/Application/STK/Scenario/emergency_system/Satellite/Satellite1/Sensor/Sensor1/Receiver/Receiver1" Type = "IntervalList">
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "27 Nov 2024 11:43:26.271" StopTime = "27 Nov 2024 11:55:13.216" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "27 Nov 2024 22:09:08.761" StopTime = "27 Nov 2024 22:21:23.380" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "27 Nov 2024 23:50:06.088" StopTime = "28 Nov 2024 00:02:54.677" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "28 Nov 2024 08:31:49.835" StopTime = "28 Nov 2024 08:41:13.040" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "28 Nov 2024 10:11:17.595" StopTime = "28 Nov 2024 10:24:46.103" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "28 Nov 2024 11:54:45.385" StopTime = "28 Nov 2024 12:03:49.446" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "28 Nov 2024 20:41:13.532" StopTime = "28 Nov 2024 20:46:24.412" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "28 Nov 2024 22:18:31.948" StopTime = "28 Nov 2024 22:31:48.739" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "29 Nov 2024 00:00:53.942" StopTime = "29 Nov 2024 00:12:09.242" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "29 Nov 2024 08:40:42.726" StopTime = "29 Nov 2024 08:52:32.153" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "29 Nov 2024 10:21:23.695" StopTime = "29 Nov 2024 10:34:28.142" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "29 Nov 2024 20:48:48.234" StopTime = "29 Nov 2024 20:58:52.601" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "29 Nov 2024 22:28:21.542" StopTime = "29 Nov 2024 22:41:47.796" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "30 Nov 2024 00:12:30.469" StopTime = "30 Nov 2024 00:20:49.493" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "30 Nov 2024 07:12:36.430" StopTime = "30 Nov 2024 07:16:59.138" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "30 Nov 2024 08:50:04.537" StopTime = "30 Nov 2024 09:03:09.519" />
+                <Interval Name = "Facility-Kourou_Station-Transmitter-Transmitter1-To-Satellite-Satellite1-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "30 Nov 2024 10:31:58.564" StopTime = "30 Nov 2024 10:43:42.685" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/emergency_system/Satellite/Satellite1/Sensor/Sensor1/Transmitter/Transmitter2;/Application/STK/Scenario/emergency_system/Facility/Kourou_Station/Receiver/Receiver2" Type = "IntervalList">
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "27 Nov 2024 11:43:26.281" StopTime = "27 Nov 2024 11:55:13.226" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "27 Nov 2024 22:09:08.771" StopTime = "27 Nov 2024 22:21:23.391" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "27 Nov 2024 23:50:06.099" StopTime = "28 Nov 2024 00:02:54.688" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "28 Nov 2024 08:31:49.845" StopTime = "28 Nov 2024 08:41:13.052" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "28 Nov 2024 10:11:17.606" StopTime = "28 Nov 2024 10:24:46.113" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "28 Nov 2024 11:54:45.397" StopTime = "28 Nov 2024 12:03:49.456" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "28 Nov 2024 20:41:13.540" StopTime = "28 Nov 2024 20:46:24.425" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "28 Nov 2024 22:18:31.958" StopTime = "28 Nov 2024 22:31:48.749" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "29 Nov 2024 00:00:53.953" StopTime = "29 Nov 2024 00:12:09.252" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "29 Nov 2024 08:40:42.735" StopTime = "29 Nov 2024 08:52:32.164" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "29 Nov 2024 10:21:23.705" StopTime = "29 Nov 2024 10:34:28.152" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "29 Nov 2024 20:48:48.243" StopTime = "29 Nov 2024 20:58:52.613" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "29 Nov 2024 22:28:21.552" StopTime = "29 Nov 2024 22:41:47.806" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "30 Nov 2024 00:12:30.481" StopTime = "30 Nov 2024 00:20:49.502" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "30 Nov 2024 07:12:36.438" StopTime = "30 Nov 2024 07:16:59.151" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "30 Nov 2024 08:50:04.548" StopTime = "30 Nov 2024 09:03:09.529" />
+                <Interval Name = "Satellite-Satellite1-Sensor-Sensor1-Transmitter-Transmitter2-To-Facility-Kourou_Station-Receiver-Receiver2 AccessIntervals" StartTime = "30 Nov 2024 10:31:58.575" StopTime = "30 Nov 2024 10:43:42.695" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/emergency_system" GlobalStartOffset = "0.000000" GlobalStartTime = "27 Nov 2024 11:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "30 Nov 2024 11:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

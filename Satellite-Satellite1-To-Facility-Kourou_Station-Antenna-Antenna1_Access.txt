@@ -1,0 +1,20 @@
+                                                                              27 Nov 2024 14:56:10
+Satellite-Satellite1-To-Facility-Kourou_Station-Antenna-Antenna1:  Access Summary Report
+
+
+Satellite1-To-Antenna1
+----------------------
+                  Access        Start Time (UTCG)           Stop Time (UTCG)        Duration (sec)
+                  ------    ------------------------    ------------------------    --------------
+                       1    27 Nov 2024 11:44:58.381    27 Nov 2024 11:53:40.835           522.454
+                       2    27 Nov 2024 22:10:36.077    27 Nov 2024 22:19:56.309           560.232
+                       3    27 Nov 2024 23:51:28.035    28 Nov 2024 00:01:32.264           604.229
+                       4    28 Nov 2024 08:34:07.855    28 Nov 2024 08:38:55.906           288.051
+                       5    28 Nov 2024 10:12:33.936    28 Nov 2024 10:23:29.972           656.037
+
+Global Statistics
+-----------------
+Min Duration           4    28 Nov 2024 08:34:07.855    28 Nov 2024 08:38:55.906           288.051
+Max Duration           5    28 Nov 2024 10:12:33.936    28 Nov 2024 10:23:29.972           656.037
+Mean Duration                                                                              526.200
+Total Duration                                                                            2631.002
