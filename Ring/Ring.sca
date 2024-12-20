@@ -1,0 +1,722 @@
+stk.v.12.0
+WrittenBy    STK_v12.5.0
+BEGIN Access
+    Scenario/Ring/Facility/Kourou_Station
+    Scenario/Ring/Satellite/LEO3
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Custom
+    CustomTimeInterval		
+    BEGIN EVENTINTERVAL
+        StartEvent		
+        BEGIN EVENT
+            Epoch		 3 Dec 2024 11:00:00.000000000
+            EpochState		 Explicit
+        END EVENT
+        StopEvent		
+        BEGIN EVENT
+            Epoch		 Tomorrow
+            EventEpoch		
+            BEGIN EVENT
+                Type		 EVENT_LINKTO
+                Name		 Tomorrow
+                AbsolutePath		 Scenario
+            END EVENT
+            EpochState		 Implicit
+        END EVENT
+        IntervalState		 StartStop
+    END EVENTINTERVAL
+
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2024-12-03T11:00:00.000000000 2024-12-03T23:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2024-12-03T11:11:02.524597798 2024-12-03T11:29:52.418857261
+        2024-12-03T13:04:24.850301327 2024-12-03T13:23:14.744708095
+        2024-12-03T14:57:47.169499329 2024-12-03T15:16:37.061778148
+        2024-12-03T16:51:09.489693522 2024-12-03T17:09:59.387603749
+        2024-12-03T18:44:31.813999817 2024-12-03T19:03:21.704727154
+        2024-12-03T20:37:54.132467282 2024-12-03T20:56:44.030582483
+        2024-12-03T22:31:16.458117930 2024-12-03T22:50:06.347688501
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-12-03T11:00:00.000000000 2024-12-03T23:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-12-03T11:11:02.524597798 2024-12-03T11:29:52.418857261
+                        2024-12-03T13:04:24.850301327 2024-12-03T13:23:14.744708095
+                        2024-12-03T14:57:47.169499329 2024-12-03T15:16:37.061778148
+                        2024-12-03T16:51:09.489693522 2024-12-03T17:09:59.387603749
+                        2024-12-03T18:44:31.813999817 2024-12-03T19:03:21.704727154
+                        2024-12-03T20:37:54.132467282 2024-12-03T20:56:44.030582483
+                        2024-12-03T22:31:16.458117930 2024-12-03T22:50:06.347688501
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Ring/Facility/Kourou_Station
+    Scenario/Ring/Satellite/LEO5
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Custom
+    CustomTimeInterval		
+    BEGIN EVENTINTERVAL
+        StartEvent		
+        BEGIN EVENT
+            Epoch		 3 Dec 2024 11:00:00.000000000
+            EpochState		 Explicit
+        END EVENT
+        StopEvent		
+        BEGIN EVENT
+            Epoch		 Tomorrow
+            EventEpoch		
+            BEGIN EVENT
+                Type		 EVENT_LINKTO
+                Name		 Tomorrow
+                AbsolutePath		 Scenario
+            END EVENT
+            EpochState		 Implicit
+        END EVENT
+        IntervalState		 StartStop
+    END EVENTINTERVAL
+
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2024-12-03T11:00:00.000000000 2024-12-03T23:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2024-12-03T12:26:37.409833575 2024-12-03T12:45:27.304170769
+        2024-12-03T14:19:59.730864700 2024-12-03T14:38:49.621234982
+        2024-12-03T16:13:22.049092059 2024-12-03T16:32:11.947075227
+        2024-12-03T18:06:44.374724426 2024-12-03T18:25:34.264195629
+        2024-12-03T20:00:06.691921373 2024-12-03T20:18:56.590063251
+        2024-12-03T21:53:29.017596641 2024-12-03T22:12:18.907176572
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-12-03T11:00:00.000000000 2024-12-03T23:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-12-03T12:26:37.409833575 2024-12-03T12:45:27.304170769
+                        2024-12-03T14:19:59.730864700 2024-12-03T14:38:49.621234982
+                        2024-12-03T16:13:22.049092059 2024-12-03T16:32:11.947075227
+                        2024-12-03T18:06:44.374724426 2024-12-03T18:25:34.264195629
+                        2024-12-03T20:00:06.691921373 2024-12-03T20:18:56.590063251
+                        2024-12-03T21:53:29.017596641 2024-12-03T22:12:18.907176572
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Ring/Facility/Kourou_Station
+    Scenario/Ring/Satellite/LEO2
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Custom
+    CustomTimeInterval		
+    BEGIN EVENTINTERVAL
+        StartEvent		
+        BEGIN EVENT
+            Epoch		 3 Dec 2024 11:00:00.000000000
+            EpochState		 Explicit
+        END EVENT
+        StopEvent		
+        BEGIN EVENT
+            Epoch		 Tomorrow
+            EventEpoch		
+            BEGIN EVENT
+                Type		 EVENT_LINKTO
+                Name		 Tomorrow
+                AbsolutePath		 Scenario
+            END EVENT
+            EpochState		 Implicit
+        END EVENT
+        IntervalState		 StartStop
+    END EVENTINTERVAL
+
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2024-12-03T11:00:00.000000000 2024-12-03T23:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2024-12-03T11:29:56.245165901 2024-12-03T11:48:46.139047191
+        2024-12-03T13:23:18.567003613 2024-12-03T13:42:08.464849387
+        2024-12-03T15:16:40.890622519 2024-12-03T15:35:30.781967062
+        2024-12-03T17:10:03.209787787 2024-12-03T17:28:53.107819193
+        2024-12-03T19:03:25.535432652 2024-12-03T19:22:15.424940012
+        2024-12-03T20:56:47.852633180 2024-12-03T21:15:37.750808147
+        2024-12-03T22:50:10.178319148 2024-12-03T23:00:00.000000000
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-12-03T11:00:00.000000000 2024-12-03T23:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-12-03T11:29:56.245165901 2024-12-03T11:48:46.139047191
+                        2024-12-03T13:23:18.567003613 2024-12-03T13:42:08.464849387
+                        2024-12-03T15:16:40.890622519 2024-12-03T15:35:30.781967062
+                        2024-12-03T17:10:03.209787787 2024-12-03T17:28:53.107819193
+                        2024-12-03T19:03:25.535432652 2024-12-03T19:22:15.424940012
+                        2024-12-03T20:56:47.852633180 2024-12-03T21:15:37.750808147
+                        2024-12-03T22:50:10.178319148 2024-12-03T23:00:00.000000000
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Ring/Facility/Kourou_Station
+    Scenario/Ring/Satellite/LEO1
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Custom
+    CustomTimeInterval		
+    BEGIN EVENTINTERVAL
+        StartEvent		
+        BEGIN EVENT
+            Epoch		 3 Dec 2024 11:00:00.000000000
+            EpochState		 Explicit
+        END EVENT
+        StopEvent		
+        BEGIN EVENT
+            Epoch		 Tomorrow
+            EventEpoch		
+            BEGIN EVENT
+                Type		 EVENT_LINKTO
+                Name		 Tomorrow
+                AbsolutePath		 Scenario
+            END EVENT
+            EpochState		 Implicit
+        END EVENT
+        IntervalState		 StartStop
+    END EVENTINTERVAL
+
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2024-12-03T11:00:00.000000000 2024-12-03T23:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2024-12-03T11:48:49.969826772 2024-12-03T12:07:39.859170657
+        2024-12-03T13:42:12.286953090 2024-12-03T14:01:02.185024292
+        2024-12-03T15:35:34.612658139 2024-12-03T15:54:24.502141594
+        2024-12-03T17:28:56.929880102 2024-12-03T17:47:46.828021924
+        2024-12-03T19:22:19.255590894 2024-12-03T19:41:09.144982103
+        2024-12-03T21:15:41.572803303 2024-12-03T21:34:31.471030959
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-12-03T11:00:00.000000000 2024-12-03T23:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-12-03T11:48:49.969826772 2024-12-03T12:07:39.859170657
+                        2024-12-03T13:42:12.286953090 2024-12-03T14:01:02.185024292
+                        2024-12-03T15:35:34.612658139 2024-12-03T15:54:24.502141594
+                        2024-12-03T17:28:56.929880102 2024-12-03T17:47:46.828021924
+                        2024-12-03T19:22:19.255590894 2024-12-03T19:41:09.144982103
+                        2024-12-03T21:15:41.572803303 2024-12-03T21:34:31.471030959
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Ring/Facility/Kourou_Station
+    Scenario/Ring/Satellite/LEO4
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Custom
+    CustomTimeInterval		
+    BEGIN EVENTINTERVAL
+        StartEvent		
+        BEGIN EVENT
+            Epoch		 3 Dec 2024 11:00:00.000000000
+            EpochState		 Explicit
+        END EVENT
+        StopEvent		
+        BEGIN EVENT
+            Epoch		 Tomorrow
+            EventEpoch		
+            BEGIN EVENT
+                Type		 EVENT_LINKTO
+                Name		 Tomorrow
+                AbsolutePath		 Scenario
+            END EVENT
+            EpochState		 Implicit
+        END EVENT
+        IntervalState		 StartStop
+    END EVENTINTERVAL
+
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2024-12-03T11:00:00.000000000 2024-12-03T23:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2024-12-03T11:00:00.000000000 2024-12-03T11:10:58.702546707
+        2024-12-03T12:45:31.130100037 2024-12-03T13:04:21.019767830
+        2024-12-03T14:38:53.447515901 2024-12-03T14:57:43.345664926
+        2024-12-03T16:32:15.773231595 2024-12-03T16:51:05.664044406
+        2024-12-03T18:25:38.090556590 2024-12-03T18:44:27.988726101
+        2024-12-03T20:19:00.416244166 2024-12-03T20:37:50.306562107
+        2024-12-03T22:12:22.733535525 2024-12-03T22:31:12.631754371
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-12-03T11:00:00.000000000 2024-12-03T23:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-12-03T11:00:00.000000000 2024-12-03T11:10:58.702546707
+                        2024-12-03T12:45:31.130100037 2024-12-03T13:04:21.019767830
+                        2024-12-03T14:38:53.447515901 2024-12-03T14:57:43.345664926
+                        2024-12-03T16:32:15.773231595 2024-12-03T16:51:05.664044406
+                        2024-12-03T18:25:38.090556590 2024-12-03T18:44:27.988726101
+                        2024-12-03T20:19:00.416244166 2024-12-03T20:37:50.306562107
+                        2024-12-03T22:12:22.733535525 2024-12-03T22:31:12.631754371
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/Ring/Facility/Kourou_Station
+    Scenario/Ring/Satellite/LEO6
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Custom
+    CustomTimeInterval		
+    BEGIN EVENTINTERVAL
+        StartEvent		
+        BEGIN EVENT
+            Epoch		 3 Dec 2024 11:00:00.000000000
+            EpochState		 Explicit
+        END EVENT
+        StopEvent		
+        BEGIN EVENT
+            Epoch		 Tomorrow
+            EventEpoch		
+            BEGIN EVENT
+                Type		 EVENT_LINKTO
+                Name		 Tomorrow
+                AbsolutePath		 Scenario
+            END EVENT
+            EpochState		 Implicit
+        END EVENT
+        IntervalState		 StartStop
+    END EVENTINTERVAL
+
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2024-12-03T11:00:00.000000000 2024-12-03T23:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2024-12-03T12:07:43.689648953 2024-12-03T12:26:33.580857147
+        2024-12-03T14:01:06.007055919 2024-12-03T14:19:55.905188865
+        2024-12-03T15:54:28.332769546 2024-12-03T16:13:18.223179605
+        2024-12-03T17:47:50.650083466 2024-12-03T18:06:40.548232462
+        2024-12-03T19:41:12.975769625 2024-12-03T20:00:02.865893094
+        2024-12-03T21:34:35.293054879 2024-12-03T21:53:25.191260663
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object1
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2024-12-03T11:00:00.000000000 2024-12-03T23:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2024-12-03T12:07:43.689648953 2024-12-03T12:26:33.580857147
+                        2024-12-03T14:01:06.007055919 2024-12-03T14:19:55.905188865
+                        2024-12-03T15:54:28.332769546 2024-12-03T16:13:18.223179605
+                        2024-12-03T17:47:50.650083466 2024-12-03T18:06:40.548232462
+                        2024-12-03T19:41:12.975769625 2024-12-03T20:00:02.865893094
+                        2024-12-03T21:34:35.293054879 2024-12-03T21:53:25.191260663
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+

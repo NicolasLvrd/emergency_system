@@ -1,0 +1,64 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.5.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "Ring AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Ring" Type = "IntervalList">
+                <Interval Name = "Ring AvailabilityIntervals" StartTime = "3 Dec 2024 11:00:00.000" StopTime = "17 Dec 2024 11:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Kourou_Station-To-Satellite-LEO1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Ring/Facility/Kourou_Station;/Application/STK/Scenario/Ring/Satellite/LEO1" Type = "IntervalList">
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO1 AccessIntervals" StartTime = "3 Dec 2024 11:48:49.970" StopTime = "3 Dec 2024 12:07:39.859" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO1 AccessIntervals" StartTime = "3 Dec 2024 13:42:12.287" StopTime = "3 Dec 2024 14:01:02.185" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO1 AccessIntervals" StartTime = "3 Dec 2024 15:35:34.613" StopTime = "3 Dec 2024 15:54:24.502" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO1 AccessIntervals" StartTime = "3 Dec 2024 17:28:56.930" StopTime = "3 Dec 2024 17:47:46.828" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO1 AccessIntervals" StartTime = "3 Dec 2024 19:22:19.256" StopTime = "3 Dec 2024 19:41:09.145" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO1 AccessIntervals" StartTime = "3 Dec 2024 21:15:41.573" StopTime = "3 Dec 2024 21:34:31.471" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Kourou_Station-To-Satellite-LEO2 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Ring/Facility/Kourou_Station;/Application/STK/Scenario/Ring/Satellite/LEO2" Type = "IntervalList">
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO2 AccessIntervals" StartTime = "3 Dec 2024 11:29:56.245" StopTime = "3 Dec 2024 11:48:46.139" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO2 AccessIntervals" StartTime = "3 Dec 2024 13:23:18.567" StopTime = "3 Dec 2024 13:42:08.465" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO2 AccessIntervals" StartTime = "3 Dec 2024 15:16:40.891" StopTime = "3 Dec 2024 15:35:30.782" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO2 AccessIntervals" StartTime = "3 Dec 2024 17:10:03.210" StopTime = "3 Dec 2024 17:28:53.108" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO2 AccessIntervals" StartTime = "3 Dec 2024 19:03:25.535" StopTime = "3 Dec 2024 19:22:15.425" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO2 AccessIntervals" StartTime = "3 Dec 2024 20:56:47.853" StopTime = "3 Dec 2024 21:15:37.751" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO2 AccessIntervals" StartTime = "3 Dec 2024 22:50:10.178" StopTime = "3 Dec 2024 23:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Kourou_Station-To-Satellite-LEO3 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Ring/Facility/Kourou_Station;/Application/STK/Scenario/Ring/Satellite/LEO3" Type = "IntervalList">
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO3 AccessIntervals" StartTime = "3 Dec 2024 11:11:02.525" StopTime = "3 Dec 2024 11:29:52.419" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO3 AccessIntervals" StartTime = "3 Dec 2024 13:04:24.850" StopTime = "3 Dec 2024 13:23:14.745" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO3 AccessIntervals" StartTime = "3 Dec 2024 14:57:47.169" StopTime = "3 Dec 2024 15:16:37.062" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO3 AccessIntervals" StartTime = "3 Dec 2024 16:51:09.490" StopTime = "3 Dec 2024 17:09:59.388" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO3 AccessIntervals" StartTime = "3 Dec 2024 18:44:31.814" StopTime = "3 Dec 2024 19:03:21.705" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO3 AccessIntervals" StartTime = "3 Dec 2024 20:37:54.132" StopTime = "3 Dec 2024 20:56:44.031" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO3 AccessIntervals" StartTime = "3 Dec 2024 22:31:16.458" StopTime = "3 Dec 2024 22:50:06.348" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Kourou_Station-To-Satellite-LEO4 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Ring/Facility/Kourou_Station;/Application/STK/Scenario/Ring/Satellite/LEO4" Type = "IntervalList">
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO4 AccessIntervals" StartTime = "3 Dec 2024 11:00:00.000" StopTime = "3 Dec 2024 11:10:58.703" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO4 AccessIntervals" StartTime = "3 Dec 2024 12:45:31.130" StopTime = "3 Dec 2024 13:04:21.020" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO4 AccessIntervals" StartTime = "3 Dec 2024 14:38:53.448" StopTime = "3 Dec 2024 14:57:43.346" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO4 AccessIntervals" StartTime = "3 Dec 2024 16:32:15.773" StopTime = "3 Dec 2024 16:51:05.664" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO4 AccessIntervals" StartTime = "3 Dec 2024 18:25:38.091" StopTime = "3 Dec 2024 18:44:27.989" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO4 AccessIntervals" StartTime = "3 Dec 2024 20:19:00.416" StopTime = "3 Dec 2024 20:37:50.307" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO4 AccessIntervals" StartTime = "3 Dec 2024 22:12:22.734" StopTime = "3 Dec 2024 22:31:12.632" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Kourou_Station-To-Satellite-LEO5 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Ring/Facility/Kourou_Station;/Application/STK/Scenario/Ring/Satellite/LEO5" Type = "IntervalList">
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO5 AccessIntervals" StartTime = "3 Dec 2024 12:26:37.410" StopTime = "3 Dec 2024 12:45:27.304" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO5 AccessIntervals" StartTime = "3 Dec 2024 14:19:59.731" StopTime = "3 Dec 2024 14:38:49.621" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO5 AccessIntervals" StartTime = "3 Dec 2024 16:13:22.049" StopTime = "3 Dec 2024 16:32:11.947" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO5 AccessIntervals" StartTime = "3 Dec 2024 18:06:44.375" StopTime = "3 Dec 2024 18:25:34.264" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO5 AccessIntervals" StartTime = "3 Dec 2024 20:00:06.692" StopTime = "3 Dec 2024 20:18:56.590" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO5 AccessIntervals" StartTime = "3 Dec 2024 21:53:29.018" StopTime = "3 Dec 2024 22:12:18.907" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-Kourou_Station-To-Satellite-LEO6 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Ring/Facility/Kourou_Station;/Application/STK/Scenario/Ring/Satellite/LEO6" Type = "IntervalList">
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO6 AccessIntervals" StartTime = "3 Dec 2024 12:07:43.690" StopTime = "3 Dec 2024 12:26:33.581" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO6 AccessIntervals" StartTime = "3 Dec 2024 14:01:06.007" StopTime = "3 Dec 2024 14:19:55.905" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO6 AccessIntervals" StartTime = "3 Dec 2024 15:54:28.333" StopTime = "3 Dec 2024 16:13:18.223" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO6 AccessIntervals" StartTime = "3 Dec 2024 17:47:50.650" StopTime = "3 Dec 2024 18:06:40.548" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO6 AccessIntervals" StartTime = "3 Dec 2024 19:41:12.976" StopTime = "3 Dec 2024 20:00:02.866" />
+                <Interval Name = "Facility-Kourou_Station-To-Satellite-LEO6 AccessIntervals" StartTime = "3 Dec 2024 21:34:35.293" StopTime = "3 Dec 2024 21:53:25.191" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/Ring" GlobalStartOffset = "0.000000" GlobalStartTime = "3 Dec 2024 11:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "17 Dec 2024 11:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>
