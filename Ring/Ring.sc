@@ -91,6 +91,150 @@ BEGIN Scenario
         Module		 stk_mission_space
     END ScenarioLicenses
 
+    BEGIN QuickReports
+
+        BEGIN Report
+            Name		 Access
+            Type		 Report
+            BaseDir		 Install
+            Style		 Access
+            AGIViewer		 Yes
+            Instance		 Facility/Kourou_Station
+            BEGIN InstanceList
+                Instance		 Satellite/LEO1
+                Instance		 Satellite/LEO2
+                Instance		 Satellite/LEO3
+                Instance		 Satellite/LEO4
+                Instance		 Satellite/LEO5
+                Instance		 Satellite/LEO6
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 4
+                    ShowIntervals		 No
+                    BEGIN IntervalList
+
+                        DateUnitAbrv		 UTCG
+
+                        BEGIN Intervals
+
+"3 Dec 2024 11:00:00.000000000" "3 Dec 2024 23:00:00.000000000"
+                        END Intervals
+
+                    END IntervalList
+
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+                BEGIN Section
+                    SectionNumber		 2
+                    SectionType		 4
+                    ShowIntervals		 No
+                    BEGIN IntervalList
+
+                        DateUnitAbrv		 UTCG
+
+                        BEGIN Intervals
+
+"3 Dec 2024 11:00:00.000000000" "3 Dec 2024 23:00:00.000000000"
+                        END Intervals
+
+                    END IntervalList
+
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+                BEGIN Section
+                    SectionNumber		 3
+                    SectionType		 4
+                    ShowIntervals		 No
+                    BEGIN IntervalList
+
+                        DateUnitAbrv		 UTCG
+
+                        BEGIN Intervals
+
+"3 Dec 2024 11:00:00.000000000" "3 Dec 2024 23:00:00.000000000"
+                        END Intervals
+
+                    END IntervalList
+
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+                BEGIN Section
+                    SectionNumber		 4
+                    SectionType		 4
+                    ShowIntervals		 No
+                    BEGIN IntervalList
+
+                        DateUnitAbrv		 UTCG
+
+                        BEGIN Intervals
+
+"3 Dec 2024 11:00:00.000000000" "3 Dec 2024 23:00:00.000000000"
+                        END Intervals
+
+                    END IntervalList
+
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+                BEGIN Section
+                    SectionNumber		 5
+                    SectionType		 4
+                    ShowIntervals		 No
+                    BEGIN IntervalList
+
+                        DateUnitAbrv		 UTCG
+
+                        BEGIN Intervals
+
+"3 Dec 2024 11:00:00.000000000" "3 Dec 2024 23:00:00.000000000"
+                        END Intervals
+
+                    END IntervalList
+
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+                BEGIN Section
+                    SectionNumber		 6
+                    SectionType		 4
+                    ShowIntervals		 No
+                    BEGIN IntervalList
+
+                        DateUnitAbrv		 UTCG
+
+                        BEGIN Intervals
+
+"3 Dec 2024 11:00:00.000000000" "3 Dec 2024 23:00:00.000000000"
+                        END Intervals
+
+                    END IntervalList
+
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
+            DisplayOnLoad		 Yes
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 510
+            WindowRectTop		 283
+            WindowRectRight		 1885
+            WindowRectBottom		 751
+        END Report
+    END QuickReports
+
     BEGIN Extensions
 
         BEGIN ClsApp
@@ -120,7 +264,7 @@ BEGIN Scenario
             LaunchWindowTrajMETStart		 0
             LaunchWindowTrajMETStop		 900
             LaunchWindowStart		 0
-            LaunchWindowStop		 0
+            LaunchWindowStop		 86400
             LaunchMETOffset		 0
             LaunchWindowUseSecEphem		 No 
             LaunchWindowUseScenFolderForSecEphem		 Yes
@@ -273,6 +417,14 @@ BEGIN Scenario
         END ConnectReportUnits
 
         BEGIN ReportFavorites
+            BEGIN Class
+                Name		 Access
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Scenario
+                    Style		 Gap Duration
+                END Favorite
+            END Class
         END ReportFavorites
 
         BEGIN ADFFileData
@@ -492,12 +644,6 @@ BEGIN Scenario
         END ExportDataFile
 
         BEGIN Desc
-            BEGIN ShortText
-
-            END ShortText
-            BEGIN LongText
-
-            END LongText
         END Desc
 
         BEGIN RfEnv
@@ -1491,7 +1637,7 @@ BEGIN Scenario
                 Description		 Local midnight tomorrow.
                 LocalOffsetWholeDays		 1
                 LocalOffsetTime		  0.0000000000000000e+00
-                ComputedDate		 3 Dec 2024 23:00:00.000000000
+                ComputedDate		 20 Dec 2024 23:00:00.000000000
             END EVENT
         END Crdn
 
@@ -1513,7 +1659,7 @@ BEGIN Scenario
 
                 StartTime		 3 Dec 2024 11:00:00.000000000
                 EndTime		 17 Dec 2024 11:00:00.000000000
-                CurrentTime		 5 Dec 2024 06:19:20.000000000
+                CurrentTime		 3 Dec 2024 11:58:24.122202028
                 Direction		 Forward
                 UpdateDelta		 10
                 RefreshDelta		 0.010000
@@ -1598,8 +1744,8 @@ BEGIN Scenario
                     BEGIN MapAttributes
                         PrimaryBody		 Earth
                         SecondaryBody		 Sun
-                        CenterLatitude		 0
-                        CenterLongitude		 88.60369246897217
+                        CenterLatitude		 0.2857142857142857
+                        CenterLongitude		 40.92614928279182
                         ProjectionAltitude		 63621860
                         FieldOfView		 35
                         OrthoDisplayDistance		 20000000
@@ -1635,8 +1781,8 @@ BEGIN Scenario
                         UseCloudsFile		 Off
                         BEGIN ZoomLocations
                             BEGIN ZoomLocation
-                                CenterLat		 0
-                                CenterLon		 88.60369246897217
+                                CenterLat		 0.2857142857142857
+                                CenterLon		 40.92614928279182
                                 ZoomWidth		 360
                                 ZoomHeight		 180
                             END ZoomLocation
@@ -2237,6 +2383,7 @@ BEGIN Scenario
             *		
         END Instance
         Instance Facility/Kourou_Station
+            *		
             Facility/Kourou_Station		
         END Instance
         Instance Satellite/LEO1

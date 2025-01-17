@@ -939,8 +939,8 @@ Last updated:   2010-06-15Antennas:
 
             BEGIN Attributes
 
-                MarkerColor		 #ff0000
-                LabelColor		 #ff0000
+                MarkerColor		 #120eff
+                LabelColor		 #120eff
                 LineStyle		 0
                 MarkerStyle		 9
                 FontStyle		 0

@@ -1121,6 +1121,7 @@ BEGIN Extensions
     END ADFFileData
 
     BEGIN AccessConstraints
+        ElevationAngle        Min		  5.0000000000000000e+00 IncludeIntervals
 
         UsePreferredMaxStep No
         PreferredMaxStep 360
@@ -1130,12 +1131,6 @@ BEGIN Extensions
     END ObjectCoverage
 
     BEGIN Desc
-        BEGIN ShortText
-
-        END ShortText
-        BEGIN LongText
-
-        END LongText
     END Desc
 
     BEGIN Refraction

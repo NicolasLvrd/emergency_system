@@ -24,7 +24,7 @@ BEGIN Transmitter
                                         <STRING>&quot;{561513BE-812A-4087-89E8-3E8DCF742411}&quot;</STRING>
                                     </VAR>
                                     <VAR name = "Version">
-                                        <STRING>&quot;3&quot;</STRING>
+                                        <STRING>&quot;4&quot;</STRING>
                                     </VAR>
                                     <VAR name = "SdfInformation">
                                         <SCOPE>
@@ -187,7 +187,18 @@ BEGIN Transmitter
                             <VAR name = "PostTransmitGainsLosses">
                                 <SCOPE>
                                     <VAR name = "GainLossList">
-                                        <LIST />
+                                        <LIST>
+                                            <SCOPE>
+                                                <VAR name = "Identifier">
+                                                    <STRING>&quot;Misc.&quot;</STRING>
+                                                </VAR>
+                                                <VAR name = "Gain">
+                                                    <QUANTITY Dimension = "RatioUnit" Unit = "units">
+                                                        <REAL>0.1513561248436208</REAL>
+                                                    </QUANTITY>
+                                                </VAR>
+                                            </SCOPE>
+                                        </LIST>
                                     </VAR>
                                 </SCOPE>
                             </VAR>
@@ -1109,6 +1120,7 @@ BEGIN Extensions
 
     BEGIN AccessConstraints
         LineOfSight IncludeIntervals
+        ElevationAngle        Min		  5.0000000000000000e+00 IncludeIntervals
 
         UsePreferredMaxStep No
         PreferredMaxStep 360
@@ -1118,12 +1130,6 @@ BEGIN Extensions
     END ObjectCoverage
 
     BEGIN Desc
-        BEGIN ShortText
-
-        END ShortText
-        BEGIN LongText
-
-        END LongText
     END Desc
 
     BEGIN Refraction

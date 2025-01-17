@@ -4,27 +4,30 @@ Title=Ring
 Description=
 ApplicationVersion=12.5.0
 Scenario=YES
-ActiveMDIState=FALSE
+ActiveMDIState=TRUE
 [WorkState_v1_2]
 ptn_Child1=Frames
 [WorkState_v1_2.Frames]
 ptn_Child1=MainFrame
 ptn_Child2=ChildFrames
 [WorkState_v1_2.Frames.MainFrame]
-WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPANPPPPPGFGAAAAAPFCAAAAAKIJAAAAA
-Title=Ring - STK 12 - 3D Graphics 1 - Earth
+WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAAADIPPPPAADIPPPPPPPPPPPPPPPPPPPPAAAAAAAAIMAAAAAAAFFAAAAAMPDAAAAA
+Title=Ring - STK 12 - [3D Graphics 1 - Earth]
 [WorkState_v1_2.Frames.ChildFrames]
 ptn_Child1=Document-0
 ptn_Child2=Document-1
 ptn_Child3=Document-2
 ptn_Child4=Document-3
+ptn_Child5=Document-4
+ptn_Child6=Document-5
+ptn_Child7=Document-6
 [WorkState_v1_2.Frames.ChildFrames.Document-0]
 ptn_Child1=ViewFrame-0
 [WorkState_v1_2.Frames.ChildFrames.Document-0.ViewFrame-0]
-DocPathName=C:\Users\benoi\Documents\STK 12\Ring\AgUi3DGfxView12.AgUiPi3DGfxView.1
+DocPathName=C:\Program Files\AGI\STK 12\bin\AgUi3DGfxView12.AgUiPi3DGfxView.1
 DocumentString=AgUi3DGfxView.AgUiPi3DGfxView.1
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPGPPPPPPPAOPPPPPPDFFAAAAAAAAAAAAALJKAAAAABLFAAAAA
+WindowPlacement=MCAAAAAACAAAAAAADAAAAAAAPPPPPPPPPPPPPPPPFPPPPPPPINPPPPPPGFAAAAAAMFAAAAAAOJFAAAAAKKEAAAAA
 IsActiveChildFrame=True
 IsFrameVisible=True
 ptn_Child1=AGI Custom Node Data
@@ -34,10 +37,10 @@ SceneType=1
 [WorkState_v1_2.Frames.ChildFrames.Document-1]
 ptn_Child1=ViewFrame-0
 [WorkState_v1_2.Frames.ChildFrames.Document-1.ViewFrame-0]
-DocPathName=C:\Users\benoi\Documents\STK 12\Ring\AgUi2DGfxView12.AgUiPi2DGfxView.1
+DocPathName=C:\Program Files\AGI\STK 12\bin\AgUi2DGfxView12.AgUiPi2DGfxView.1
 DocumentString=AgUi2DGfxView.AgUiPi2DGfxView.1
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPDPPPPPPPBNPPPPPPAAAAAAAAAAAAAAAABCHAAAAABLFAAAAA
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPFPPPPPPPINPPPPPPAAAAAAAAAAAAAAAABCHAAAAAOEEAAAAA
 IsActiveChildFrame=False
 IsFrameVisible=True
 ptn_Child1=AGI Custom Node Data
@@ -46,53 +49,45 @@ MapID=1
 [WorkState_v1_2.Frames.ChildFrames.Document-2]
 ptn_Child1=ViewFrame-0
 [WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0]
-DocPathName=C:\Users\benoi\Documents\STK 12\Ring\AgUiAttrBrowser12.AgUiPiAttrBrowser.1
+DocPathName=C:\Program Files\AGI\STK 12\bin\AgUiAttrBrowser12.AgUiPiAttrBrowser.1
 DocumentString=AgUiAttrBrowser.AgUiPiAttrBrowser.1
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAADFBAAAAAFLFAAAAA
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAEFBAAAAAGJCAAAAA
 IsActiveChildFrame=False
 IsFrameVisible=True
 ProfUISBarID=63000
 ptn_Child1=AGI Custom Node Data
 [WorkState_v1_2.Frames.ChildFrames.Document-2.ViewFrame-0.AGI Custom Node Data]
 objectExpandedState0=/Application/STK/Scenario/Ring:TRUE
-objectExpandedState1=/Application/STK/Scenario/Ring/Facility/Facility1:TRUE
-objectExpandedState10=/Application/STK/Scenario/Ring/Satellite/Satellite111:TRUE
-objectExpandedState11=/Application/STK/Scenario/Ring/Satellite/Satellite112:TRUE
-objectExpandedState12=/Application/STK/Scenario/Ring/Satellite/Satellite113:TRUE
-objectExpandedState13=/Application/STK/Scenario/Ring/Satellite/Satellite114:TRUE
-objectExpandedState14=/Application/STK/Scenario/Ring/Satellite/Satellite115:TRUE
-objectExpandedState15=/Application/STK/Scenario/Ring/Satellite/Satellite116:TRUE
-objectExpandedState16=/Application/STK/Scenario/Ring/Satellite/Satellite6:TRUE
-objectExpandedState17=/Application/STK/Scenario/Test1:TRUE
-objectExpandedState18=/Application/STK/Scenario/Test1/Facility/GS:TRUE
-objectExpandedState19=/Application/STK/Scenario/Test1/Facility/HAGS:TRUE
-objectExpandedState2=/Application/STK/Scenario/Ring/Facility/Kourou_Station:TRUE
-objectExpandedState20=/Application/STK/Scenario/Test1/Satellite/LEO1:FALSE
-objectExpandedState21=/Application/STK/Scenario/Test1/Satellite/LEO2:TRUE
-objectExpandedState22=/Application/STK/Scenario/Test1/Satellite/LEO3:TRUE
-objectExpandedState23=/Application/STK/Scenario/Test1/Satellite/LEO4:TRUE
-objectExpandedState24=/Application/STK/Scenario/Test1/Satellite/LEO5:TRUE
-objectExpandedState25=/Application/STK/Scenario/Test1/Satellite/LEO6:TRUE
-objectExpandedState3=/Application/STK/Scenario/Ring/Satellite/LEO1:TRUE
-objectExpandedState4=/Application/STK/Scenario/Ring/Satellite/LEO2:TRUE
-objectExpandedState5=/Application/STK/Scenario/Ring/Satellite/LEO3:TRUE
-objectExpandedState6=/Application/STK/Scenario/Ring/Satellite/LEO4:TRUE
-objectExpandedState7=/Application/STK/Scenario/Ring/Satellite/LEO5:TRUE
-objectExpandedState8=/Application/STK/Scenario/Ring/Satellite/LEO6:TRUE
-objectExpandedState9=/Application/STK/Scenario/Ring/Satellite/Satellite1:TRUE
-[WorkState_v1_2.Frames.ChildFrames.Document-3]
+objectExpandedState1=/Application/STK/Scenario/Ring/Facility/Kourou_Station:TRUE
+objectExpandedState10=/Application/STK/Scenario/emergency_system/Facility/Kiruna_Station_KIR-2_13m:TRUE
+objectExpandedState11=/Application/STK/Scenario/emergency_system/Facility/Kourou_Station:FALSE
+objectExpandedState12=/Application/STK/Scenario/emergency_system/Facility/Malindi_Station_STDN_KENS:TRUE
+objectExpandedState13=/Application/STK/Scenario/emergency_system/Facility/Perth_STDN_PRTS:TRUE
+objectExpandedState14=/Application/STK/Scenario/emergency_system/Facility/Poker_Flat:TRUE
+objectExpandedState15=/Application/STK/Scenario/emergency_system/Facility/Redu_Station:TRUE
+objectExpandedState16=/Application/STK/Scenario/emergency_system/Facility/Villafranca_VIL-1:TRUE
+objectExpandedState17=/Application/STK/Scenario/emergency_system/Satellite/Satellite1:FALSE
+objectExpandedState2=/Application/STK/Scenario/Ring/Satellite/LEO1:TRUE
+objectExpandedState3=/Application/STK/Scenario/Ring/Satellite/LEO2:TRUE
+objectExpandedState4=/Application/STK/Scenario/Ring/Satellite/LEO3:TRUE
+objectExpandedState5=/Application/STK/Scenario/Ring/Satellite/LEO4:TRUE
+objectExpandedState6=/Application/STK/Scenario/Ring/Satellite/LEO5:TRUE
+objectExpandedState7=/Application/STK/Scenario/Ring/Satellite/LEO6:TRUE
+objectExpandedState8=/Application/STK/Scenario/Ring/Satellite/Satellite10:TRUE
+objectExpandedState9=/Application/STK/Scenario/emergency_system:TRUE
+[WorkState_v1_2.Frames.ChildFrames.Document-5]
 ptn_Child1=ViewFrame-0
-[WorkState_v1_2.Frames.ChildFrames.Document-3.ViewFrame-0]
-DocPathName=C:\Users\benoi\Documents\STK 12\Ring\AgUiTimelineView12.AgUiPiTimelineView.1
+[WorkState_v1_2.Frames.ChildFrames.Document-5.ViewFrame-0]
+DocPathName=C:\Program Files\AGI\STK 12\bin\AgUiTimelineView12.AgUiPiTimelineView.1
 DocumentString=AgUiTimelineView.AgUiPiTimelineView.1
 DocTemplateIndex=0
-WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAAAMAAAAABJAAAAAA
+WindowPlacement=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPAAAAAAAAAAAAAAAAAIHAAAAAHJAAAAAA
 IsActiveChildFrame=False
 IsFrameVisible=True
 ProfUISBarID=63001
 ptn_Child1=AGI Custom Node Data
-[WorkState_v1_2.Frames.ChildFrames.Document-3.ViewFrame-0.AGI Custom Node Data]
+[WorkState_v1_2.Frames.ChildFrames.Document-5.ViewFrame-0.AGI Custom Node Data]
 ComponentWellWidth=200.000000000000
 CurrentContentView=Scenario Availability
 CurrentTimeView=Scenario Analysis Period

@@ -9,7 +9,7 @@ BEGIN Sensor
 
         BEGIN SimpleCone
 
-            ConeAngle		  5.9999999999999993e+01
+            ConeAngle		  6.4000000000000000e+01
             AngularPatternResolution		  4.0000000000000000e+00
 
         END SimpleCone
@@ -63,6 +63,12 @@ BEGIN Sensor
         END ObjectCoverage
 
         BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
         END Desc
 
         BEGIN Refraction
