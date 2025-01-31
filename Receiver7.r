@@ -24,7 +24,7 @@ BEGIN Receiver
                                         <STRING>&quot;{8BA5BE78-2FBF-43D6-AD79-6A985B363D65}&quot;</STRING>
                                     </VAR>
                                     <VAR name = "Version">
-                                        <STRING>&quot;5&quot;</STRING>
+                                        <STRING>&quot;6&quot;</STRING>
                                     </VAR>
                                     <VAR name = "SdfInformation">
                                         <SCOPE>
@@ -475,7 +475,7 @@ BEGIN Receiver
                             </VAR>
                             <VAR name = "Frequency">
                                 <QUANTITY Dimension = "FrequencyUnit" Unit = "Hz">
-                                    <REAL>2050000000</REAL>
+                                    <REAL>900000000</REAL>
                                 </QUANTITY>
                             </VAR>
                             <VAR name = "FrequencyAutoTracking">

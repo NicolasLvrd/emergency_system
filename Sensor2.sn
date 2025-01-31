@@ -170,6 +170,7 @@ BEGIN Sensor
 
         Class Receiver
 
+            Receiver33		
             Receiver7		
 
         END Class

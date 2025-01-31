@@ -233,142 +233,6 @@ BEGIN Scenario
         END Report
 
         BEGIN Report
-            Name		 Link Budget
-            Type		 Report
-            BaseDir		 User
-            Style		 Link Budget
-            AGIViewer		 Yes
-            Instance		 Facility/Kourou_Station/Transmitter/Transmitter1
-            BEGIN InstanceList
-                Instance		 Satellite/Satellite1/Sensor/Sensor1/Receiver/Receiver1
-            END InstanceList
-            BEGIN TimeData
-                BEGIN Section
-                    SectionNumber		 1
-                    SectionType		 2
-                    ShowIntervals		 No
-                    TimeType		 Availability
-                    SamplingType		 Default
-                    TimeBound		 0
-                END Section
-            END TimeData
-            DisplayOnLoad		 No
-            FrameType		 0
-            DockCircleID		 0
-            DockID		 0
-            WindowRectLeft		 315
-            WindowRectTop		 155
-            WindowRectRight		 1812
-            WindowRectBottom		 623
-        END Report
-
-        BEGIN Report
-            Name		 Link Budget1
-            Type		 Report
-            BaseDir		 User
-            Style		 Link Budget
-            AGIViewer		 Yes
-            Instance		 Facility/Kourou_Station/Transmitter/Transmitter1
-            BEGIN InstanceList
-                Instance		 Satellite/Satellite1/Sensor/Sensor1/Receiver/Receiver1
-            END InstanceList
-            BEGIN TimeData
-                BEGIN Section
-                    SectionNumber		 1
-                    SectionType		 2
-                    ShowIntervals		 No
-                    TimeType		 Availability
-                    SamplingType		 Default
-                    TimeBound		 0
-                END Section
-            END TimeData
-            DisplayOnLoad		 No
-            FrameType		 0
-            DockCircleID		 0
-            DockID		 0
-            WindowRectLeft		 473
-            WindowRectTop		 313
-            WindowRectRight		 1915
-            WindowRectBottom		 781
-        END Report
-
-        BEGIN Report
-            Name		 Link Budget2
-            Type		 Report
-            BaseDir		 User
-            Style		 Link Budget
-            AGIViewer		 Yes
-            Instance		 Facility/Kourou_Station/Transmitter/Transmitter1
-            BEGIN InstanceList
-                Instance		 Satellite/Satellite1/Sensor/Sensor1/Receiver/Receiver1
-            END InstanceList
-            BEGIN TimeData
-                BEGIN Section
-                    SectionNumber		 1
-                    SectionType		 0
-                    ShowIntervals		 No
-                    TimeType		 Availability
-                    SamplingType		 Default
-                    TimeBound		 0
-                END Section
-                BEGIN Section
-                    SectionNumber		 2
-                    SectionType		 2
-                    ShowIntervals		 No
-                    TimeType		 Availability
-                    SamplingType		 Default
-                    TimeBound		 0
-                END Section
-            END TimeData
-            DisplayOnLoad		 No
-            FrameType		 0
-            DockCircleID		 0
-            DockID		 0
-            WindowRectLeft		 379
-            WindowRectTop		 219
-            WindowRectRight		 1821
-            WindowRectBottom		 687
-        END Report
-
-        BEGIN Report
-            Name		 Link Budget3
-            Type		 Report
-            BaseDir		 User
-            Style		 Link Budget
-            AGIViewer		 Yes
-            Instance		 Satellite/Satellite1/Sensor/Sensor1/Transmitter/Transmitter2
-            BEGIN InstanceList
-                Instance		 Facility/Kourou_Station/Receiver/Receiver2
-            END InstanceList
-            BEGIN TimeData
-                BEGIN Section
-                    SectionNumber		 1
-                    SectionType		 0
-                    ShowIntervals		 No
-                    TimeType		 Availability
-                    SamplingType		 Default
-                    TimeBound		 0
-                END Section
-                BEGIN Section
-                    SectionNumber		 2
-                    SectionType		 2
-                    ShowIntervals		 No
-                    TimeType		 Availability
-                    SamplingType		 Default
-                    TimeBound		 0
-                END Section
-            END TimeData
-            DisplayOnLoad		 No
-            FrameType		 0
-            DockCircleID		 0
-            DockID		 0
-            WindowRectLeft		 852
-            WindowRectTop		 251
-            WindowRectRight		 2290
-            WindowRectBottom		 715
-        END Report
-
-        BEGIN Report
             Name		 Access1
             Type		 Report
             BaseDir		 Install
@@ -508,14 +372,44 @@ BEGIN Scenario
                     TimeBound		 0
                 END Section
             END TimeData
+            DisplayOnLoad		 No
+            FrameType		 0
+            DockCircleID		 0
+            DockID		 0
+            WindowRectLeft		 846
+            WindowRectTop		 522
+            WindowRectRight		 2731
+            WindowRectBottom		 1523
+        END Report
+
+        BEGIN Report
+            Name		 Link Budget
+            Type		 Report
+            BaseDir		 Install
+            Style		 Link Budget
+            AGIViewer		 Yes
+            Instance		 Satellite/Satellite155/Sensor/Sensor26/Receiver/Receiver31
+            BEGIN InstanceList
+                Instance		 Satellite/gps-02_svn61/Sensor/Sensor28/Transmitter/Transmitter35
+            END InstanceList
+            BEGIN TimeData
+                BEGIN Section
+                    SectionNumber		 1
+                    SectionType		 2
+                    ShowIntervals		 No
+                    TimeType		 Availability
+                    SamplingType		 Default
+                    TimeBound		 0
+                END Section
+            END TimeData
             DisplayOnLoad		 Yes
             FrameType		 0
             DockCircleID		 0
             DockID		 0
-            WindowRectLeft		 713
-            WindowRectTop		 83
-            WindowRectRight		 1924
-            WindowRectBottom		 790
+            WindowRectLeft		 455
+            WindowRectTop		 97
+            WindowRectRight		 2886
+            WindowRectBottom		 1314
         END Report
     END QuickReports
 
@@ -705,13 +599,38 @@ BEGIN Scenario
                 Name		 Access
                 BEGIN Favorite
                     Type		 Report
-                    BaseDir		 Install
-                    Style		 Link Budget - BER
+                    BaseDir		 User
+                    Style		 Doppler
                 END Favorite
                 BEGIN Favorite
                     Type		 Report
                     BaseDir		 User
-                    Style		 Link Budget
+                    Style		 Link Budget - BER
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 AER
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Access Detailed
+                END Favorite
+                BEGIN Favorite
+                    Type		 Graph
+                    BaseDir		 Install
+                    Style		 Radar Skywave Dopplers
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Radar RCS
+                END Favorite
+                BEGIN Favorite
+                    Type		 Report
+                    BaseDir		 Install
+                    Style		 Radar SearchTrack
                 END Favorite
             END Class
         END ReportFavorites
@@ -1927,6 +1846,13 @@ BEGIN Scenario
 
         BEGIN SpiceExt
             OutputErrorMsgsOnLoad		 No
+            SpiceFile		 "asteroids.bsp"
+            SpiceFile		 "jupiter.bsp"
+            SpiceFile		 "mars.bsp"
+            SpiceFile		 "neptune.bsp"
+            SpiceFile		 "pluto.bsp"
+            SpiceFile		 "saturn.bsp"
+            SpiceFile		 "uranus.bsp"
             SpiceFile		 "planets.bsp"
         END SpiceExt
 
@@ -1936,9 +1862,9 @@ BEGIN Scenario
 
                 StartTime		 27 Nov 2024 11:00:00.000000000
                 EndTime		 30 Nov 2024 11:00:00.000000000
-                CurrentTime		 27 Nov 2024 12:56:45.000000000
+                CurrentTime		 28 Nov 2024 13:43:45.000000000
                 Direction		 Forward
-                UpdateDelta		 3
+                UpdateDelta		 30
                 RefreshDelta		 0.010000
                 XRealTimeMult		 1
                 RealTimeOffset		 0
@@ -2021,7 +1947,7 @@ BEGIN Scenario
                     BEGIN MapAttributes
                         PrimaryBody		 Earth
                         SecondaryBody		 Sun
-                        CenterLatitude		 24.04678897241379
+                        CenterLatitude		 12.74684608915054
                         CenterLongitude		 141.157972569293
                         ProjectionAltitude		 63621860
                         FieldOfView		 35
@@ -2045,7 +1971,7 @@ BEGIN Scenario
                         ShowImageNames		 Off
                         ImageNameFont		 0
                         Projection		 EquidistantCylindrical
-                        Resolution		 Low
+                        Resolution		 VeryLow
                         CoordinateSys		 ECF
                         UseBackgroundImage		 On
                         UseBingForBackground		 On
@@ -2060,8 +1986,8 @@ BEGIN Scenario
                             BEGIN ZoomLocation
                                 CenterLat		 24.04678897241379
                                 CenterLon		 141.157972569293
-                                ZoomWidth		 139.47137604
-                                ZoomHeight		 73.89988806156435
+                                ZoomWidth		 360
+                                ZoomHeight		 180
                             END ZoomLocation
                         END ZoomLocations
                         UseVarAspectRatio		 No
@@ -2635,6 +2561,12 @@ BEGIN Scenario
 
     BEGIN SubObjects
 
+        Class Constellation
+
+            GPSConstellation		
+
+        END Class
+
         Class CoverageDefinition
 
             CoverageDefinition3		
@@ -2652,12 +2584,44 @@ BEGIN Scenario
             Poker_Flat		
             Redu_Station		
             Santa_Maria_Station		
+            User		
             Villafranca_VIL-1		
 
         END Class
 
         Class Satellite
 
+            gps-01_svn63		
+            gps-02_svn61		
+            gps-03_svn69		
+            gps-04_svn74		
+            gps-05_svn50		
+            gps-06_svn67		
+            gps-07_svn48		
+            gps-08_svn72		
+            gps-09_svn68		
+            gps-10_svn73		
+            gps-11_svn78		
+            gps-12_svn58		
+            gps-13_svn43		
+            gps-14_svn77		
+            gps-15_svn55		
+            gps-16_svn56		
+            gps-17_svn53		
+            gps-18_svn75		
+            gps-19_svn59		
+            gps-20_svn51		
+            gps-21_svn45		
+            gps-22_svn41		
+            gps-23_svn76		
+            gps-24_svn65		
+            gps-25_svn62		
+            gps-26_svn71		
+            gps-27_svn66		
+            gps-29_svn57		
+            gps-30_svn64		
+            gps-31_svn52		
+            gps-32_svn70		
             Satellite1		
             Satellite111		
             Satellite112		
@@ -2684,6 +2648,7 @@ BEGIN Scenario
             Satellite153		
             Satellite154		
             Satellite155		
+            Satellite2		
 
         END Class
 
@@ -2692,7 +2657,10 @@ BEGIN Scenario
     BEGIN References
         Instance *
             *		
+            Constellation/GPSConstellation		
             CoverageDefinition/CoverageDefinition3		
+        END Instance
+        Instance Constellation/GPSConstellation
         END Instance
         Instance CoverageDefinition/CoverageDefinition3
             CoverageDefinition/CoverageDefinition3		
@@ -2779,6 +2747,13 @@ BEGIN Scenario
         Instance Facility/Santa_Maria_Station/Transmitter/Transmitter6
             Facility/Santa_Maria_Station/Transmitter/Transmitter6		
         END Instance
+        Instance Facility/User
+            Facility/User		
+            Facility/User/Transmitter/Transmitter33		
+        END Instance
+        Instance Facility/User/Transmitter/Transmitter33
+            Facility/User/Transmitter/Transmitter33		
+        END Instance
         Instance Facility/Villafranca_VIL-1
             Facility/Villafranca_VIL-1		
         END Instance
@@ -2805,8 +2780,12 @@ BEGIN Scenario
         END Instance
         Instance Satellite/Satellite111/Sensor/Sensor2
             Satellite/Satellite111/Sensor/Sensor2		
+            Satellite/Satellite111/Sensor/Sensor2/Receiver/Receiver33		
             Satellite/Satellite111/Sensor/Sensor2/Receiver/Receiver7		
             Satellite/Satellite111/Sensor/Sensor2/Transmitter/Transmitter7		
+        END Instance
+        Instance Satellite/Satellite111/Sensor/Sensor2/Receiver/Receiver33
+            Satellite/Satellite111/Sensor/Sensor2/Receiver/Receiver33		
         END Instance
         Instance Satellite/Satellite111/Sensor/Sensor2/Receiver/Receiver7
             Satellite/Satellite111/Sensor/Sensor2/Receiver/Receiver7		
@@ -3197,6 +3176,158 @@ BEGIN Scenario
         END Instance
         Instance Satellite/Satellite155/Sensor/Sensor26/Transmitter/Transmitter31
             Satellite/Satellite155/Sensor/Sensor26/Transmitter/Transmitter31		
+        END Instance
+        Instance Satellite/Satellite2
+            Satellite/Satellite2		
+        END Instance
+        Instance Satellite/gps-01_svn63
+            Constellation/GPSConstellation		
+            Satellite/gps-01_svn63		
+            Satellite/gps-01_svn63/Sensor/Sensor27		
+        END Instance
+        Instance Satellite/gps-01_svn63/Sensor/Sensor27
+            Satellite/gps-01_svn63/Sensor/Sensor27		
+            Satellite/gps-01_svn63/Sensor/Sensor27/Receiver/Receiver34		
+            Satellite/gps-01_svn63/Sensor/Sensor27/Transmitter/Transmitter34		
+        END Instance
+        Instance Satellite/gps-01_svn63/Sensor/Sensor27/Receiver/Receiver34
+            Satellite/gps-01_svn63/Sensor/Sensor27/Receiver/Receiver34		
+        END Instance
+        Instance Satellite/gps-01_svn63/Sensor/Sensor27/Transmitter/Transmitter34
+            Satellite/gps-01_svn63/Sensor/Sensor27/Transmitter/Transmitter34		
+        END Instance
+        Instance Satellite/gps-02_svn61
+            *		
+            Constellation/GPSConstellation		
+            Satellite/gps-02_svn61		
+            Satellite/gps-02_svn61/Sensor/Sensor28		
+        END Instance
+        Instance Satellite/gps-02_svn61/Sensor/Sensor28
+            Satellite/gps-02_svn61/Sensor/Sensor28		
+            Satellite/gps-02_svn61/Sensor/Sensor28/Receiver/Receiver35		
+            Satellite/gps-02_svn61/Sensor/Sensor28/Transmitter/Transmitter35		
+        END Instance
+        Instance Satellite/gps-02_svn61/Sensor/Sensor28/Receiver/Receiver35
+            Satellite/gps-02_svn61/Sensor/Sensor28/Receiver/Receiver35		
+        END Instance
+        Instance Satellite/gps-02_svn61/Sensor/Sensor28/Transmitter/Transmitter35
+            Satellite/gps-02_svn61/Sensor/Sensor28/Transmitter/Transmitter35		
+        END Instance
+        Instance Satellite/gps-03_svn69
+            Constellation/GPSConstellation		
+            Satellite/gps-03_svn69		
+        END Instance
+        Instance Satellite/gps-04_svn74
+            Constellation/GPSConstellation		
+            Satellite/gps-04_svn74		
+        END Instance
+        Instance Satellite/gps-05_svn50
+            Constellation/GPSConstellation		
+            Satellite/gps-05_svn50		
+        END Instance
+        Instance Satellite/gps-06_svn67
+            Constellation/GPSConstellation		
+            Satellite/gps-06_svn67		
+        END Instance
+        Instance Satellite/gps-07_svn48
+            Constellation/GPSConstellation		
+            Satellite/gps-07_svn48		
+        END Instance
+        Instance Satellite/gps-08_svn72
+            Constellation/GPSConstellation		
+            Satellite/gps-08_svn72		
+        END Instance
+        Instance Satellite/gps-09_svn68
+            Constellation/GPSConstellation		
+            Satellite/gps-09_svn68		
+        END Instance
+        Instance Satellite/gps-10_svn73
+            Constellation/GPSConstellation		
+            Satellite/gps-10_svn73		
+        END Instance
+        Instance Satellite/gps-11_svn78
+            Constellation/GPSConstellation		
+            Satellite/gps-11_svn78		
+        END Instance
+        Instance Satellite/gps-12_svn58
+            Constellation/GPSConstellation		
+            Satellite/gps-12_svn58		
+        END Instance
+        Instance Satellite/gps-13_svn43
+            Constellation/GPSConstellation		
+            Satellite/gps-13_svn43		
+        END Instance
+        Instance Satellite/gps-14_svn77
+            Constellation/GPSConstellation		
+            Satellite/gps-14_svn77		
+        END Instance
+        Instance Satellite/gps-15_svn55
+            Constellation/GPSConstellation		
+            Satellite/gps-15_svn55		
+        END Instance
+        Instance Satellite/gps-16_svn56
+            Constellation/GPSConstellation		
+            Satellite/gps-16_svn56		
+        END Instance
+        Instance Satellite/gps-17_svn53
+            Constellation/GPSConstellation		
+            Satellite/gps-17_svn53		
+        END Instance
+        Instance Satellite/gps-18_svn75
+            Constellation/GPSConstellation		
+            Satellite/gps-18_svn75		
+        END Instance
+        Instance Satellite/gps-19_svn59
+            Constellation/GPSConstellation		
+            Satellite/gps-19_svn59		
+        END Instance
+        Instance Satellite/gps-20_svn51
+            Constellation/GPSConstellation		
+            Satellite/gps-20_svn51		
+        END Instance
+        Instance Satellite/gps-21_svn45
+            Constellation/GPSConstellation		
+            Satellite/gps-21_svn45		
+        END Instance
+        Instance Satellite/gps-22_svn41
+            Constellation/GPSConstellation		
+            Satellite/gps-22_svn41		
+        END Instance
+        Instance Satellite/gps-23_svn76
+            Constellation/GPSConstellation		
+            Satellite/gps-23_svn76		
+        END Instance
+        Instance Satellite/gps-24_svn65
+            Constellation/GPSConstellation		
+            Satellite/gps-24_svn65		
+        END Instance
+        Instance Satellite/gps-25_svn62
+            Constellation/GPSConstellation		
+            Satellite/gps-25_svn62		
+        END Instance
+        Instance Satellite/gps-26_svn71
+            Constellation/GPSConstellation		
+            Satellite/gps-26_svn71		
+        END Instance
+        Instance Satellite/gps-27_svn66
+            Constellation/GPSConstellation		
+            Satellite/gps-27_svn66		
+        END Instance
+        Instance Satellite/gps-29_svn57
+            Constellation/GPSConstellation		
+            Satellite/gps-29_svn57		
+        END Instance
+        Instance Satellite/gps-30_svn64
+            Constellation/GPSConstellation		
+            Satellite/gps-30_svn64		
+        END Instance
+        Instance Satellite/gps-31_svn52
+            Constellation/GPSConstellation		
+            Satellite/gps-31_svn52		
+        END Instance
+        Instance Satellite/gps-32_svn70
+            Constellation/GPSConstellation		
+            Satellite/gps-32_svn70		
         END Instance
     END References
 

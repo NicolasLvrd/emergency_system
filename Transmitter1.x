@@ -24,7 +24,7 @@ BEGIN Transmitter
                                         <STRING>&quot;{561513BE-812A-4087-89E8-3E8DCF742411}&quot;</STRING>
                                     </VAR>
                                     <VAR name = "Version">
-                                        <STRING>&quot;4&quot;</STRING>
+                                        <STRING>&quot;6&quot;</STRING>
                                     </VAR>
                                     <VAR name = "SdfInformation">
                                         <SCOPE>

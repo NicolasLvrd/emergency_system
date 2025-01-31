@@ -1,0 +1,58 @@
+stk.v.12.0
+WrittenBy    STK_v12.5.0
+
+BEGIN Constellation
+
+    Name		 GPSConstellation
+    BEGIN Definition
+        Object		 Satellite/gps-01_svn63
+        Object		 Satellite/gps-02_svn61
+        Object		 Satellite/gps-03_svn69
+        Object		 Satellite/gps-04_svn74
+        Object		 Satellite/gps-05_svn50
+        Object		 Satellite/gps-06_svn67
+        Object		 Satellite/gps-07_svn48
+        Object		 Satellite/gps-08_svn72
+        Object		 Satellite/gps-09_svn68
+        Object		 Satellite/gps-10_svn73
+        Object		 Satellite/gps-11_svn78
+        Object		 Satellite/gps-12_svn58
+        Object		 Satellite/gps-13_svn43
+        Object		 Satellite/gps-14_svn77
+        Object		 Satellite/gps-15_svn55
+        Object		 Satellite/gps-16_svn56
+        Object		 Satellite/gps-17_svn53
+        Object		 Satellite/gps-18_svn75
+        Object		 Satellite/gps-19_svn59
+        Object		 Satellite/gps-20_svn51
+        Object		 Satellite/gps-21_svn45
+        Object		 Satellite/gps-22_svn41
+        Object		 Satellite/gps-23_svn76
+        Object		 Satellite/gps-24_svn65
+        Object		 Satellite/gps-25_svn62
+        Object		 Satellite/gps-26_svn71
+        Object		 Satellite/gps-27_svn66
+        Object		 Satellite/gps-29_svn57
+        Object		 Satellite/gps-30_svn64
+        Object		 Satellite/gps-31_svn52
+        Object		 Satellite/gps-32_svn70
+        Type		 Constellation
+        FromOperator		 Or
+        FromOrder		 1
+        ToOperator		 Or
+        ToOrder		 1
+        UseRoutingRulesFile		 No
+
+    END Definition
+
+    BEGIN Extensions
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN Desc
+        END Desc
+
+    END Extensions
+
+END Constellation
